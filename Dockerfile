@@ -5,4 +5,4 @@ FROM node:20
 COPY script.js app.js
 
 # Executa o script
-CMD ["node", "app.js"]
+ENTRYPOINT ["node", "app.js"]
